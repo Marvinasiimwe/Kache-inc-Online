@@ -1,77 +1,39 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #007BFF, #FFD700);
-  color: #fff;
-}
-header {
-  text-align: center;
-  padding: 2rem;
-  animation: fadeIn 2s ease-in;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6fc;
+  color: #333;
 }
 nav {
-  background: #fff;
+  position: sticky;
+  top: 0;
+  background: #007BFF;
   padding: 1rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
 nav a {
-  color: #007BFF;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover {
-  color: #FFD700;
-}
-.service-btn {
-  background: #fff;
-  color: #007BFF;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.service-btn:hover {
-  transform: scale(1.1);
-  background: #FFD700;
   color: #fff;
-}
-.whatsapp-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25D366;
-  color: white;
-  padding: 1rem;
-  border-radius: 50%;
-  font-size: 1.5rem;
   text-decoration: none;
-}
-.container {
-  padding: 2rem;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  font-weight: 600;
 }
 .card {
   background: #fff;
-  color: #007BFF;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
   transition: transform 0.3s ease;
 }
 .card:hover {
-  transform: scale(1.05);
-  background: #FFD700;
-  color: #fff;
+  transform: translateY(-5px);
+}
+.order-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #25D366;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
 }
