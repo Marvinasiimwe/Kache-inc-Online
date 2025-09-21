@@ -1,0 +1,6 @@
+kache-inc/
+├── index.html          → Home Page
+├── services.html       → Services Page
+├── contact.html        → Contact Page
+├── style.css           → Shared Styles
+└── script.js           → Shared Scripts
